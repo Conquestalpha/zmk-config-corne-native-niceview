@@ -1,4 +1,4 @@
-/*
+gt/*
  * Copyright (c) 2020 The ZMK Contributors
  *
  * SPDX-License-Identifier: MIT
@@ -30,226 +30,289 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_bt_setting {
-            timeout-ms = <50>;
-            bindings = <&to 4>;
-            key-positions = <29 38 37>;
-        };
-
-        combo_to_number {
-            timeout-ms = <50>;
-            bindings = <&to 2>;
-            key-positions = <19 20 21 40>;
-        };
-
-        combo_to_mouse {
-            timeout-ms = <50>;
-            bindings = <&to 3>;
-            key-positions = <14 15 16 37>;
-        };
-
-        combo_esc {
-            timeout-ms = <25>;
+        combo_escape {
             bindings = <&kp ESCAPE>;
-            key-positions = <2 1>;
+            key-positions = <1 2>;
         };
 
-        combo_playpause {
-            timeout-ms = <25>;
-            bindings = <&kp C_PP>;
-            key-positions = <5 6>;
+        combo_exclaimation {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <2 3>;
+        };
+
+        combo_at_sign {
+            bindings = <&kp AT_SIGN>;
+            key-positions = <14 15 16>;
+        };
+
+        combo_hash {
+            bindings = <&kp HASH>;
+            key-positions = <1 3>;
+        };
+
+        combo_dollar {
+            bindings = <&kp DOLLAR>;
+            key-positions = <1 5>;
+        };
+
+        combo_percent {
+            bindings = <&kp PERCENT>;
+            key-positions = <2 4>;
+        };
+
+        combo_ampersand {
+            bindings = <&kp AMPS>;
+            key-positions = <19 20>;
+        };
+
+        combo_caret {
+            bindings = <&kp CARET>;
+            key-positions = <19 21>;
+        };
+
+        combo_asterisk {
+            bindings = <&kp ASTRK>;
+            key-positions = <21 20>;
         };
 
         combo_left_parenthesis {
-            timeout-ms = <25>;
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <7 8>;
+            key-positions = <8 7>;
         };
 
         combo_right_parenthesis {
-            timeout-ms = <25>;
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <8 9>;
+            key-positions = <9 8>;
         };
 
-        combo_vol_up {
-            timeout-ms = <25>;
+        combo_volume_up {
             bindings = <&kp C_VOLUME_UP>;
             key-positions = <27 28>;
         };
 
-        combo_vol_down {
-            timeout-ms = <25>;
-            bindings = <&kp C_VOLUME_DOWN>;
-            key-positions = <26 25>;
+        combo_volume_down {
+            bindings = <&kp K_VOLUME_DOWN>;
+            key-positions = <25 26>;
         };
 
         combo_mute {
-            timeout-ms = <25>;
             bindings = <&kp C_MUTE>;
-            key-positions = <26 27>;
-        };
-
-        combo_plus {
-            timeout-ms = <25>;
-            bindings = <&kp PLUS>;
-            key-positions = <34 22>;
-        };
-
-        combo_minus {
-            timeout-ms = <25>;
-            bindings = <&kp MINUS>;
-            key-positions = <22 21>;
-        };
-
-        combo_multiply {
-            timeout-ms = <25>;
-            bindings = <&kp ASTERISK>;
-            key-positions = <33 22>;
-        };
-
-        combo_divide {
-            timeout-ms = <25>;
-            bindings = <&kp SLASH>;
-            key-positions = <34 21>;
-        };
-
-        combo_equal {
-            timeout-ms = <25>;
-            bindings = <&kp EQUAL>;
-            key-positions = <34 33>;
-        };
-
-        combo_no1 {
-            timeout-ms = <35>;
-            bindings = <&kp NUMBER_1>;
-            key-positions = <40 31>;
-        };
-
-        combo_no2 {
-            timeout-ms = <35>;
-            bindings = <&kp NUMBER_2>;
-            key-positions = <40 32>;
-        };
-
-        combo_no3 {
-            timeout-ms = <35>;
-            bindings = <&kp NUMBER_3>;
-            key-positions = <40 33>;
-        };
-
-        combo_no4 {
-            timeout-ms = <35>;
-            bindings = <&kp NUMBER_4>;
-            key-positions = <40 19>;
-        };
-
-        combo_no5 {
-            timeout-ms = <35>;
-            bindings = <&kp NUMBER_5>;
-            key-positions = <40 20>;
-        };
-
-        combo_no6 {
-            timeout-ms = <35>;
-            bindings = <&kp NUMBER_6>;
-            key-positions = <21 40>;
-        };
-
-        combo_no7 {
-            timeout-ms = <35>;
-            bindings = <&kp NUMBER_7>;
-            key-positions = <40 7>;
-        };
-
-        combo_no8 {
-            timeout-ms = <35>;
-            bindings = <&kp NUMBER_8>;
-            key-positions = <8 40>;
-        };
-
-        combo_no9 {
-            timeout-ms = <35>;
-            bindings = <&kp NUMBER_9>;
-            key-positions = <9 40>;
-        };
-
-        combo_no0 {
-            timeout-ms = <35>;
-            bindings = <&kp NUMBER_0>;
-            key-positions = <40 22>;
-        };
-
-        combo_spaces_left {
-            timeout-ms = <35>;
-            bindings = <&kp F7>;
-            key-positions = <1 13>;
-        };
-
-        combo_spaces_right {
-            timeout-ms = <35>;
-            bindings = <&kp F9>;
-            key-positions = <5 17>;
-        };
-
-        combo_track_prev {
-            timeout-ms = <35>;
-            bindings = <&kp C_PREV>;
             key-positions = <25 26 27>;
         };
 
-        combo_track_next {
-            timeout-ms = <35>;
-            bindings = <&kp C_NEXT>;
-            key-positions = <28 27 26>;
+        combo_backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <6 7>;
         };
 
-        combo_change_language {
-            timeout-ms = <35>;
-            bindings = <&kp LC(SPACE)>;
-            key-positions = <16 17 18 19>;
+        combo_delete {
+            bindings = <&kp DELETE>;
+            key-positions = <5 4>;
         };
 
-        combo_spaces {
-            timeout-ms = <35>;
-            bindings = <&kp F8>;
-            key-positions = <2 4>;
+        combo_underscore {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <29 28>;
         };
 
-        combo_homerow_scroll {
-            timeout-ms = <35>;
-            bindings = <&kp LA(LC(LG(W)))>;
-            key-positions = <22 9>;
+        combo_minus {
+            bindings = <&kp MINUS>;
+            key-positions = <17 16>;
         };
 
-        combo_homerow_search {
-            timeout-ms = <35>;
-            bindings = <&kp LA(LC(LG(Q)))>;
-            key-positions = <36 41>;
+        combo_plus {
+            bindings = <&kp PLUS>;
+            key-positions = <30 31>;
         };
 
-        combo_moom_toggle {
-            timeout-ms = <35>;
-            bindings = <&kp LA(LG(LC(E)))>;
-            key-positions = <14 2>;
+        combo_equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <18 19>;
         };
 
-        combo_skmr {
-            timeout-ms = <50>;
-            bindings = <&macro_skmr>;
-            key-positions = <37 28 40 31>;
+        combo_media_previous {
+            bindings = <&kp C_RW>;
+            key-positions = <13 26>;
         };
 
-        combo_homerow_search2 {
-            timeout-ms = <35>;
-            bindings = <&kp LA(LC(LG(Q)))>;
-            key-positions = <19 7>;
+        combo_Media_Next {
+            bindings = <&kp C_FF>;
+            key-positions = <27 16>;
         };
 
-        combo_homerow_searchword {
-            timeout-ms = <35>;
-            bindings = <&kp LG(LA(LC(T)))>;
-            key-positions = <9 21>;
+        combo_left_control {
+            bindings = <&kp LEFT_CONTROL>;
+            key-positions = <24 36>;
+        };
+
+        combo_left_option {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <24 38>;
+        };
+
+        combo_single_quote {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <9 10>;
+        };
+
+        combo_apostrophe {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <10 20 21>;
+        };
+
+        combo_question {
+            bindings = <&kp QUESTION>;
+            key-positions = <21 20 19>;
+        };
+
+        combo_slash {
+            bindings = <&kp SLASH>;
+            key-positions = <9 10 20>;
+        };
+
+        combo_colon {
+            bindings = <&kp COLON>;
+            key-positions = <33 32 31>;
+        };
+
+        combo_semicolon {
+            bindings = <&kp SEMI>;
+            key-positions = <30 31 32>;
+        };
+
+        combo_dot {
+            bindings = <&kp DOT>;
+            key-positions = <9 8 19>;
+        };
+
+        combo_comma {
+            bindings = <&kp COMMA>;
+            key-positions = <18 7 8>;
+        };
+
+        combo_right_bracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <23 22>;
+        };
+
+        combo_left_bracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <22 21>;
+        };
+
+        combo_backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <10 11>;
+        };
+
+        combo_enter_left {
+            bindings = <&kp ENTER>;
+            key-positions = <2 3 4>;
+        };
+
+        combo_enter_right {
+            bindings = <&kp ENTER>;
+            key-positions = <9 8 7>;
+        };
+
+        combo_play {
+            bindings = <&kp C_PLAY_PAUSE>;
+            key-positions = <26 27>;
+        };
+
+        combo_tab_2 {
+            bindings = <&kp TAB>;
+            key-positions = <15 16>;
+        };
+
+        combo_space {
+            bindings = <&kp SPACE>;
+            key-positions = <1 2 3>;
+        };
+
+        combo_space_2 {
+            bindings = <&kp SPACE>;
+            key-positions = <15 16 17>;
+        };
+
+        combo_meme {
+            bindings = <&macro_meme>;
+            key-positions = <34 30>;
+        };
+
+        combo_sad {
+            bindings = <&macro_sweat>;
+            key-positions = <25 16>;
+        };
+
+        combo_thumbs_up {
+            bindings = <&macro_thumbs_up>;
+            key-positions = <17 25>;
+        };
+
+        combo_cheers_benroy {
+            bindings = <&macro_cheers_benroy>;
+            key-positions = <25 17 3>;
+        };
+
+        combo_desktop_right {
+            bindings = <&kp RC(RIGHT)>;
+            key-positions = <41 35>;
+        };
+
+        combo_desktop_left {
+            bindings = <&kp RC(LEFT)>;
+            key-positions = <41 33>;
+        };
+
+        combo_desktop_up {
+            bindings = <&kp RC(UP_ARROW)>;
+            key-positions = <41 22>;
+        };
+
+        combo_joy_emote {
+            bindings = <&macro_joy_emote>;
+            key-positions = <25 15>;
+        };
+
+        combo_macro_pathetic {
+            bindings = <&macro_patriotic_pathetic>;
+            key-positions = <33 30 32>;
+        };
+
+        combo_backtick {
+            bindings = <&kp GRAVE>;
+            key-positions = <3 16 2>;
+        };
+
+        combo_right_shift {
+            bindings = <&kp RIGHT_SHIFT>;
+            key-positions = <31 32>;
+        };
+
+        combo_right_command {
+            bindings = <&kp RIGHT_COMMAND>;
+            key-positions = <23 41>;
+        };
+
+        combo_tilde {
+            bindings = <&kp GRAVE>;
+            key-positions = <17 4 3>;
+        };
+
+        man-in-arena {
+            bindings = <&man_in_arena>;
+            key-positions = <17 16 15 18 19 20>;
+        };
+
+        combo_right_desktop {
+            bindings = <&kp RC(RIGHT)>;
+            key-positions = <5 17>;
+        };
+
+        combo_left_desktop {
+            bindings = <&kp LC(LEFT_ARROW)>;
+            key-positions = <16 4>;
         };
     };
 
