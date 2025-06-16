@@ -350,8 +350,8 @@
             key-positions = <24 12>;
         };
 
-        Alfred_clipboard {
-            bindings = <&kp LG(LA(V))>;
+        Left_Shift {
+            bindings = <&kp LEFT_SHIFT>;
             key-positions = <29 17>;
         };
     };
@@ -418,10 +418,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp F14    &gqt LS(LG(NUMBER_4)) Q  &kp W             &gqt LS(LG(NUMBER_2)) E  &kp R             &gqt LS(LG(T)) T    &kp Y  &kp U      &kp I              &kp O     &kp P     &kp F16
-&kp F15    &kp A                    &kp S             &kp D                    &gqt SPACE F      &kp G               &kp H  &kp J      &kp K              &kp L     &kp UP    &mo 2
-&kp LSHFT  &gqt LEFT_ALT Z          &gqt LS(LG(X)) X  &kp C                    &kp V             &kp B               &kp N  &kp M      &kp RIGHT_COMMAND  &kp LEFT  &kp DOWN  &kp RIGHT
-                                                      &mo 1                    &kp LEFT_COMMAND  &kp LEFT_SHIFT      &mo 1  &kp SPACE  &kp RALT
+&kp F14    &gqt LS(LG(NUMBER_4)) Q  &kp W             &gqt LS(LG(NUMBER_2)) E  &kp R             &gqt LS(LG(T)) T                  &kp Y  &kp U      &kp I              &kp O     &kp P     &kp F16
+&kp F15    &kp A                    &kp S             &kp D                    &gqt SPACE F      &kp G                             &kp H  &kp J      &kp K              &kp L     &kp UP    &mo 2
+&kp LSHFT  &gqt LEFT_ALT Z          &gqt LS(LG(X)) X  &kp C                    &kp V             &kp B                             &kp N  &kp M      &kp RIGHT_COMMAND  &kp LEFT  &kp DOWN  &kp RIGHT
+                                                      &mo 1                    &kp LEFT_COMMAND  &gqt LEFT_SHIFT LG(LEFT_SHIFT)    &mo 1  &kp SPACE  &kp RALT
             >;
         };
 
