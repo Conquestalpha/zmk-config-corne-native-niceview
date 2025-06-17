@@ -325,7 +325,7 @@
             key-positions = <16 4>;
         };
 
-        combo_mission_control {
+        combo_alfred_clipboard {
             bindings = <&kp LG(LA(V))>;
             key-positions = <16 28>;
         };
@@ -351,7 +351,7 @@
         };
 
         Left_Shift {
-            bindings = <&skq LA(LEFT_GUI)>;
+            bindings = <&skq LS(LEFT_GUI)>;
             key-positions = <29 17>;
         };
 
