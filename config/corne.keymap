@@ -439,8 +439,8 @@
 
             bindings = <
 &kp LS(LG(N4))    &kp N1        &kp N2          &kp N3       &kp N4         &kp N5                 &kp N6           &kp N7           &kp N8           &kp N9           &kp N0  &kp BSPC
-&kp LS(LEFT_GUI)  &kp LEFT      &kp UP          &kp DOWN     &kp RIGHT      &kp LEFT_SHIFT         &trans           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans  &trans
-&trans            &kp LA(LEFT)  &skq LA(LCTRL)  &kp LC(TAB)  &kp LA(RIGHT)  &skq LG(LEFT_SHIFT)    &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans  &kp RIGHT_SHIFT
+&kp LS(LEFT_GUI)  &kp LEFT      &kp UP          &kp DOWN     &kp RIGHT      &skq LG(LEFT_SHIFT)    &trans           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans  &trans
+&trans            &kp LA(LEFT)  &skq LA(LCTRL)  &kp LC(TAB)  &kp LA(RIGHT)  &kp LEFT_SHIFT         &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans  &kp RIGHT_SHIFT
                                                 &trans       &skq LEFT_GUI  &skq LEFT_SHIFT        &kp RET          &kp DOT          &kp KP_NUMBER_0
             >;
         };
