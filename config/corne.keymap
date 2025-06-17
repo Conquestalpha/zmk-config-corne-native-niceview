@@ -326,7 +326,7 @@
         };
 
         combo_mission_control {
-            bindings = <&kp RC(UP_ARROW)>;
+            bindings = <&kp LG(LA(V))>;
             key-positions = <16 28>;
         };
 
@@ -351,7 +351,7 @@
         };
 
         Left_Shift {
-            bindings = <&kp LG(LA(V))>;
+            bindings = <&skq LA(LEFT_GUI)>;
             key-positions = <29 17>;
         };
 
