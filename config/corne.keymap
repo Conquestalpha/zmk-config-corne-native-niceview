@@ -350,12 +350,12 @@
             key-positions = <24 12>;
         };
 
-        Left_Shift {
+        combo_Left_Shift {
             bindings = <&skq LS(LEFT_GUI)>;
             key-positions = <29 17>;
         };
 
-        SKQ_shift+command {
+        Combo_SKQ_shift+command {
             bindings = <&skq LS(LEFT_GUI)>;
             key-positions = <38 1>;
         };
