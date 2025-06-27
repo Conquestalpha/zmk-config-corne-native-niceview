@@ -372,7 +372,7 @@
         };
 
         Return_Default {
-            bindings = <&to 0>;
+            bindings = <&kp LC(UP_ARROW)>;
             key-positions = <25 29>;
         };
     };
@@ -487,10 +487,10 @@
 
         layer_4 {
             bindings = <
-&trans  &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &msc SCRL_UP    &trans    &trans  &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &msc SCRL_UP    &trans
-&trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN  &trans    &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN  &trans
-&trans  &trans          &trans          &trans           &trans          &trans    &trans  &trans          &trans          &trans           &trans          &trans
-                                        &mkp LCLK        &mkp RCLK       &to 0     &to 0   &mkp LCLK       &mkp RCLK
+&trans  &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &msc SCRL_UP    &trans    &msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &msc SCRL_UP    &trans
+&trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN  &trans    &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN  &trans
+&trans  &trans          &trans          &trans           &trans          &trans    &trans          &trans          &trans          &trans           &trans          &trans
+                                        &mkp LCLK        &mkp RCLK       &to 0     &to 0           &mkp LCLK       &mkp RCLK
             >;
         };
     };
