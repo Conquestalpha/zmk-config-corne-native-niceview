@@ -380,6 +380,11 @@
             bindings = <&kp RIGHT_SHIFT>;
             key-positions = <22 41>;
         };
+
+        Combo_F15 {
+            bindings = <&kp LS(F15)>;
+            key-positions = <1 38 17>;
+        };
     };
 
     macros {
