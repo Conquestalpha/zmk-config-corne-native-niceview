@@ -395,6 +395,11 @@
             bindings = <&kp BACKSLASH>;
             key-positions = <10 9 8>;
         };
+
+        combo_bluetooth_layer {
+            bindings = <&mo 2>;
+            key-positions = <30 34 41>;
+        };
     };
 
     macros {
