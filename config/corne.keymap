@@ -318,17 +318,17 @@
 
         combo_right_desktop {
             bindings = <&kp RC(RIGHT)>;
-            key-positions = <5 17>;
+            key-positions = <17 29>;
         };
 
         combo_left_desktop {
             bindings = <&kp LC(LEFT_ARROW)>;
-            key-positions = <16 4>;
+            key-positions = <16 28>;
         };
 
         combo_alfred_clipboard {
             bindings = <&kp LG(LA(V))>;
-            key-positions = <16 28>;
+            key-positions = <16 4>;
         };
 
         combo_forward {
@@ -353,7 +353,7 @@
 
         combo_Left_Shift {
             bindings = <&skq LS(LEFT_GUI)>;
-            key-positions = <29 17>;
+            key-positions = <17 5>;
         };
 
         Combo_SKQ_shift+command {
@@ -382,8 +382,18 @@
         };
 
         Combo_F15 {
-            bindings = <&kp LS(F15)>;
-            key-positions = <1 38 17>;
+            bindings = <&kp F15>;
+            key-positions = <1 17>;
+        };
+
+        combo_right_bracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <22 21 20>;
+        };
+
+        combo_backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <10 9 8>;
         };
     };
 
