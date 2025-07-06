@@ -343,7 +343,7 @@
 
         combo_maximise {
             bindings = <&kp LC(CAPSLOCK)>;
-            key-positions = <12 0>;
+            key-positions = <12 0 38>;
         };
 
         combo_minimise {
@@ -376,12 +376,12 @@
             key-positions = <25 29>;
         };
 
-        Combo_Right_Shift {
+        Combo_right_shift_5col {
             bindings = <&kp RIGHT_SHIFT>;
             key-positions = <22 41>;
         };
 
-        Combo_F15 {
+        Combo_F15_5col {
             bindings = <&kp F15>;
             key-positions = <1 17>;
         };
