@@ -398,7 +398,7 @@
 
         combo_bluetooth_layer {
             bindings = <&mo 2>;
-            key-positions = <30 34 41>;
+            key-positions = <10 41>;
         };
 
         combo_5col_trigger {
