@@ -382,7 +382,7 @@
         };
 
         Combo_F15_5col {
-            bindings = <&kp F15>;
+            bindings = <&kp F20>;
             key-positions = <1 17>;
         };
 
