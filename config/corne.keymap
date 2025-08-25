@@ -102,7 +102,7 @@
         };
 
         combo_volume_down {
-            bindings = <&kp K_VOLUME_DOWN>;
+            bindings = <&kp C_VOLUME_DOWN>;
             key-positions = <25 26>;
         };
 
