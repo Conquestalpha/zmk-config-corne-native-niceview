@@ -371,7 +371,7 @@
             key-positions = <18 22>;
         };
 
-        Return_Default {
+        Combo_desktop_up {
             bindings = <&kp LC(UP_ARROW)>;
             key-positions = <25 29>;
         };
@@ -418,12 +418,12 @@
 
         combo_left_click {
             bindings = <&mkp LCLK>;
-            key-positions = <16 5>;
+            key-positions = <17 4>;
         };
 
         combo_right_click {
             bindings = <&mkp RCLK>;
-            key-positions = <28 17>;
+            key-positions = <29 16>;
         };
     };
 
