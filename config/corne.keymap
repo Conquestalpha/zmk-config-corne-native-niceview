@@ -276,11 +276,6 @@
             key-positions = <41 33>;
         };
 
-        combo_desktop_up {
-            bindings = <&kp RC(UP_ARROW)>;
-            key-positions = <41 22>;
-        };
-
         combo_joy_emote {
             bindings = <&macro_joy_emote>;
             key-positions = <25 15>;
