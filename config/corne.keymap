@@ -307,7 +307,7 @@
         };
 
         man-in-arena {
-            bindings = <&man_in_arena>;
+            bindings = <&brackets>;
             key-positions = <17 16 15 18 19 20>;
         };
 
@@ -465,10 +465,10 @@
             bindings = <&none &kp LS(N) &kp O &kp T &kp SPACE &kp B &kp E &kp C &kp A &kp U &kp S &kp E &kp SPACE &kp LS(I) &kp SPACE &kp A &kp M &kp SPACE &kp P &kp A &kp T &kp R &kp I &kp O &kp T &kp I &kp C &kp SPACE &kp B &kp U &kp T &kp SPACE &kp B &kp E &kp C &kp A &kp U &kp S &kp E &kp SPACE &kp LS(I) &kp SPACE &kp A &kp M &kp SPACE &kp P &kp A &kp T &kp H &kp E &kp T &kp I &kp C>;
         };
 
-        man_in_arena: man_in_arena {
+        brackets: man_in_arena {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp LBKT &kp RBKT &kp LEFT>;
             label = "MAN_IN_ARENA";
         };
     };
