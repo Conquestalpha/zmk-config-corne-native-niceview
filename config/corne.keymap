@@ -455,7 +455,7 @@
             compatible = "zmk,behavior-macro";
             label = "MACRO_JOY_EMOTE";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT_ARROW>;
+            bindings = <&none &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT_ARROW>;
         };
 
         macro_patriotic_pathetic: macro_patriotic_pathetic {
