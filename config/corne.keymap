@@ -451,13 +451,6 @@
             bindings = <&none &kp LS(C) &kp H &kp E &kp E &kp R &kp S &kp EXCL &kp RET &kp LS(B) &kp E &kp N &kp R &kp O &kp Y>;
         };
 
-        macro_brackets: macro_joy_emote {
-            compatible = "zmk,behavior-macro";
-            label = "MACRO_JOY_EMOTE";
-            #binding-cells = <0>;
-            bindings = <&none &kp LPAR &kp RPAR &kp LEFT_ARROW>;
-        };
-
         macro_patriotic_pathetic: macro_patriotic_pathetic {
             compatible = "zmk,behavior-macro";
             label = "MACRO_PATRIOTIC_PATHETIC";
