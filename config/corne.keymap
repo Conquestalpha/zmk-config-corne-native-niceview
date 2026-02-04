@@ -277,7 +277,7 @@
         };
 
         combo_joy_emote {
-            bindings = <&macro_joy_emote>;
+            bindings = <&macro_brackets>;
             key-positions = <25 15>;
         };
 
@@ -451,11 +451,11 @@
             bindings = <&none &kp LS(C) &kp H &kp E &kp E &kp R &kp S &kp EXCL &kp RET &kp LS(B) &kp E &kp N &kp R &kp O &kp Y>;
         };
 
-        macro_joy_emote: macro_joy_emote {
+        macro_brackets: macro_joy_emote {
             compatible = "zmk,behavior-macro";
             label = "MACRO_JOY_EMOTE";
             #binding-cells = <0>;
-            bindings = <&none &kp COLON &kp J &kp O &kp Y>;
+            bindings = <&kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT_ARROW>;
         };
 
         macro_patriotic_pathetic: macro_patriotic_pathetic {
@@ -463,13 +463,6 @@
             label = "MACRO_PATRIOTIC_PATHETIC";
             #binding-cells = <0>;
             bindings = <&none &kp LS(N) &kp O &kp T &kp SPACE &kp B &kp E &kp C &kp A &kp U &kp S &kp E &kp SPACE &kp LS(I) &kp SPACE &kp A &kp M &kp SPACE &kp P &kp A &kp T &kp R &kp I &kp O &kp T &kp I &kp C &kp SPACE &kp B &kp U &kp T &kp SPACE &kp B &kp E &kp C &kp A &kp U &kp S &kp E &kp SPACE &kp LS(I) &kp SPACE &kp A &kp M &kp SPACE &kp P &kp A &kp T &kp H &kp E &kp T &kp I &kp C>;
-        };
-
-        brackets: man_in_arena {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LBKT &kp RBKT &kp LEFT>;
-            label = "MAN_IN_ARENA";
         };
     };
 
